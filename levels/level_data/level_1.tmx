@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="60" height="11" tilewidth="64" tileheight="64" infinite="0" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" source="../tilesets/terrain_tiles.tsx"/>
+ <tileset firstgid="17" source="../tilesets/coin_tiles.tsx"/>
+ <tileset firstgid="19" source="../tilesets/grass_tiles.tsx"/>
+ <tileset firstgid="24" source="../tilesets/palms.tsx"/>
+ <tileset firstgid="27" source="../tilesets/crates.tsx"/>
+ <tileset firstgid="28" source="../tilesets/player_tiles.tsx"/>
+ <tileset firstgid="30" source="../tilesets/enemy_tiles.tsx"/>
+ <layer id="5" name="bg_palms" width="60" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BkAikSxUcaGA2HkQdGSpxL4WBTahYhPrl24dM3UOUYIX8Tq5+QvpGSJocDAAAwegHV
+  </data>
+ </layer>
+ <layer id="1" name="terrain" width="60" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DkAV4g5gNifhLlRhIAhcNID4NRMHwBIxAzQTEzkjgLmjpCfGq6A5t7qGEmyDxWIGaDYnYktRxoegnxsbkXH0b3C7I70N1DrtnoZrJT0b/Y3IsPsxOhnx2PHDFmD1b/AgDtewLN
+  </data>
+ </layer>
+ <layer id="3" name="grass" width="60" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4CBQRSIhSmQHwlADIjFB9oRo2AU0AiA0rcolC2MJo4M0PMAtcsFkHkiSLQoFjdQYqYoAbWUmg+iQWEkxoAoM8TJtFcUySwYG9kOmLkiUDUilHhiFIwCCgEA+hcDrg==
+  </data>
+ </layer>
+ <layer id="6" name="crates" width="60" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMArIA9JD0Gxqm4vNPHQxcuzEpYdU8VEwCugBAPdCAPQ=
+  </data>
+ </layer>
+ <layer id="8" name="enemies" width="60" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowAC5MiUGwWjYBSMgpEOcJWR1C47R8viUTBYAQD3fgCX
+  </data>
+ </layer>
+ <layer id="9" name="constraints" width="60" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIx3I4+HjkxsFo2AUDA+ALV+P5nXCgNwwIkYfLc0eBaOAFgAAY74BNw==
+  </data>
+ </layer>
+ <layer id="4" name="fg_palms" width="60" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DkAUkoLYFHDT65UTAKRsHQB6ByYKDzObH2SxJWgtNMSvTicwchtRI47Ibpw+UufHqI5SOLSRBQR8huUuQJgYFOb7QEAGHGAns=
+  </data>
+ </layer>
+ <layer id="2" name="coins" width="60" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF2IAgldSMguELRuN/FGADQgPtACIAKW5EV0usXlLsoDQvDfYwJ8d/2PQMdn+OgpENAEyAAOU=
+  </data>
+ </layer>
+ <layer id="7" name="player" width="60" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDGUgM9AOGAU0AbID7YBRMApGwSggAQAAShMAOg==
+  </data>
+ </layer>
+</map>
